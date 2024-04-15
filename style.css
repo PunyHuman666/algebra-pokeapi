@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+#ul-template {
+  list-style: none;
+  margin: 20px auto;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  display: block;
+  width: 150px;
+}
