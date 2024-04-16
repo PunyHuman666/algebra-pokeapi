@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon API</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <button>20 yellow Pokemons</button>
+
+    <div class="container">
+      <ul id="ul-template"></ul>
+    </div>
+    <script id="template" type="text/x-handlebars-template">
+      <li>{{id}}.
+        <a href="{{url}}" target="_blank">{{name}}</a>
+        <hr />
+        <img src="{{sprite}}" />
+      </li>
+    </script>
+  </body>
 </html>

@@ -9,3 +9,14 @@
 5. Lista mora sadržavati:
   - redni broj
   - ime vrste koje je ujedno i link na API endpoint sa više informacija o vrsti
+
+6. Uključite JQuery biblioteku na vašu starnicu preko CDN-a ako već niste
+
+7. Pri završetku loadanja stranice i rezultata pomoću JQuerija:
+  - kreirajte izmjenjujući zebra uzorak na redovima tablice
+  - dodajte stil na sve header elemente tablice: boju darkBlue
+
+8. Nakon 2 sekunde:
+  - maknite sve redove Pokemona čija imena počinju sa slovom p
+  - popravite zebra uzorak
+  - ispišite podatak o broju skrivenih redova u novostvorenom div-u
